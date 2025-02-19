@@ -1,0 +1,38 @@
+
+{
+
+    "myDetails":{
+        "fName":"Makwan",
+        "lName":"Abdulla",
+        "address":"Fabelvägen 5 ",
+        "zipCode":"17670",
+        "city":"Stockholm",
+        "county":"Järfälla",
+        "phoneNumber":"0720084748",
+        "email": "makwan.stockholm@gmail.com",
+        "linkedIn": "LinkedIn Profile URL"
+    },
+
+    "profileSummary": "Mitt mål är att ha ett stimulerande samt utvecklande arbete, där möjligheten finns till att kunna använda tidigare samt nya arbetserfarenheter för att bygga ett värde samt affärsnytta inom given arbetsplats.",
+
+
+    "experience":[
+        {
+            "date":"VT 2018 - HT 2020",
+            "jobTitle":"Väktare",
+            "company":"Securus & Aros",
+            "jobDescription":"Jobbat med kriminalvården med ansvar att boja, visitera, och transportera frihetsberövade. Jobbat som stationär väktare i en galleria med ansvar att övervaka inkommande varu-transport. Jobbat som ronderande väktare i en förort med ansvar att säkerställa säkerheten i området med brandförebyggande och brottsförebyggande syfte igenom bevakning, vistelse och säkerhetskontroller av byggnader. "
+        },
+        {
+            "date":"VT 2021 - HT 2022",
+            "jobTitle":"Kundtjänst",
+            "company":"Greencab",
+            "jobDescription":"Jobbet ingick på att arbeta gentemot varje enskild kund samt samarbeta med taxichaufförerna. Ansvarig med att arbetet flyter effektivt genom bra tilldelning av körningar samt trevlig kundtjänst.  "
+        }
+    ],
+    "education":[
+        {
+            
+        }
+    ]
+}
