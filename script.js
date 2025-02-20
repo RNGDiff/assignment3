@@ -1,6 +1,10 @@
-fetch("cv.json")
-.then((data) => {b();
-})
-.then((data) => {
-  
-});
+
+
+function getCv(){
+    fetch('cv.json')
+        .then(response => response.json())
+        .then(function(data){
+            
+        
+    });
+}

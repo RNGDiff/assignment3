@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Makwan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="header-section">
+                <li>
+                    <a href="uppgift2.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <div class="clock-container">
+                    <li class="clock">
+                        <script>
+                            let displayTime = document.querySelector('.clock');
+                            console.log(displayTime);
+                            setInterval(() => {
+                                const clock = new Date();
+                            const hours = clock.getHours();
+                            const minutes = clock.getMinutes();
+                            const seconds = clock.getSeconds();
+                            const displayHours = String(hours).padStart(2,"0")
+                            const displayMinutes = String(minutes).padStart(2,'0');
+                            const displaySeconds = String(seconds).padStart(2,'2');
+                            
+                            const time = `${displayHours}:${displayMinutes}:${displaySeconds}`
+
+                            displayTime.innerText = time;
+                            }, 1000);
+                            
+                            console.log(displayTime);
+                        </script>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+        <div class="presentation-container">
+            <div class="personal-image">
+                <img src="images/28_20220226150052_6422823_xlarge.jpg" alt="#">
+
+
+            </div>
+            <div class="present-cv">
+                <p class="present-text">                För en detaljerad översikt av min yrkesbakgrund, kompetenser och utbildning, kan du ladda ner mitt CV <a href="#" class="cv-redirect">här.</a></p>
+
+            </div>
+        </div>
+
+
+        <h1 class="project-title">Projects</h1>
+        <div class="project-container">
+            <div class="project1 project-div">Calisthenics app
+                <p class="project-text">                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quisquam, obcaecati quia tempora ipsum nesciunt.</p>
+                <a href="">Pull up counter</a>
+            </div>
+            <div class="project2 project-div">
+                <p class="project-text">                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quisquam, obcaecati quia tempora ipsum nesciunt.</p>
+
+            </div>
+            <div class="project3 project-div">
+                <p class="project-text">                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quisquam, obcaecati quia tempora ipsum nesciunt.</p>
+            </div>
+            <div class="project4 project-div">
+                <p class="project-text">                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quisquam, obcaecati quia tempora ipsum nesciunt.</p>
+
+            </div>
+
+        </div>
+
+
+        <footer>
+            <nav>
+                <ul class="footer-section">
+                    <li><a href="https://se.linkedin.com/">Linked-in</a></li>
+                    <li><a href="mailto:makwan.stockholm@gmail.com">Send me an email</a></li>
+                    <li><a href="https://github.com/RNGDiff">Github</a></li>
+                </ul>
+            </nav>
+        </footer>
+
+</body>
+</html>
+
+
