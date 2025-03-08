@@ -1,0 +1,184 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #ffffff;
+    min-height: 100vh;
+    max-width: 100vw;    
+    
+}
+h1,h2,h3,h4,h5,h6,ul{
+    margin: 0;
+    padding: 0;
+}
+main{
+    flex-grow: 1;
+    z-index: 1;
+    position: relative;
+}
+.copied-container{
+
+    position: relative;
+}
+#copied{
+    opacity: 0;
+    position: absolute;
+    z-index: 2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ^ Full name -- Full name -- Full name */
+.intro-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+}
+.full-name{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    transition: transform 0.3s;
+
+}
+.full-name:hover{
+    transform: scale(1.1);
+}
+.first-name{
+    font-size: 3rem;
+    opacity: 0.4;
+    color: #242424;
+}
+.last-name{
+    font-size: 3rem;
+    color: #242424;
+}
+/* ! Address & contact -- Address & contact */
+.address-contact{
+    text-align: center;
+    font-size: 1.6rem;
+}
+.address-contact:hover{
+    text-align: center;
+    font-size: 1.6rem;
+}
+.address{
+    opacity: 0.6;
+}
+.address:hover{
+    transform: scale(1.1);
+}
+.contact{
+    color: #28a022;
+    transition: transform 0.3s;
+}
+.phone-number{
+    display: inline-block;
+    transition: transform 0.3s, margin-left 0.3s, padding-right 0.3s;
+}
+.phone-number:hover{
+    transform: scale(1.1);
+    margin-left: 10px;
+    padding-right: 5px;
+}
+.email{
+    display: inline-block;
+    transition: transform 0.3s, margin-left 0.3s,padding-left 0.3s;
+}
+.email:hover{
+    transform: scale(1.1);
+    margin-left: 10px;
+    padding-left: 5px;
+}
+
+.content-container{
+    padding: 25px 50px 50px 50px;
+    border: 1px solid rgb(0, 16, 107);
+}
+/* ^ Experience One */
+.experience-title{
+    font-size: 1.5rem;
+}
+.inside-container{
+    padding-left: 40px;
+    border-left: 3px dotted black;
+    margin-bottom: 50px;
+}
+.date{
+    font-size: 0.8rem;
+    padding-top: 15px;
+}
+.job-title{
+    display: inline-block;
+    color: rgba(0, 81, 255, 0.6);
+}
+.company{
+    display: inline-block;
+}
+
+/* ^ Experience two */
+.experience-title2{
+    font-size: 1.5rem;
+}
+.date2{
+    font-size: 0.8rem;
+    padding-top: 15px;
+}
+.job-title2{
+    display: inline-block;
+    color: rgba(0, 81, 255, 0.6);
+}
+.company2{
+    display: inline-block;
+}
+
+/* ! Degrees ONE */
+.degree{
+    font-size: 1.5rem;
+}
+.date3{
+    font-size: 0.8rem;
+    padding-top: 15px;
+}
+.degree-title{
+    display: inline-block;
+    color: rgba(0, 81, 255, 0.6);
+}
+.school{
+    display: inline-block;
+}
+/* ! Degrees TWO */
+.degree2{
+    font-size: 1.5rem;
+}
+.date4{
+    font-size: 0.8rem;
+    padding-top: 15px;
+}
+.degree-title2{
+    display: inline-block;
+    color: rgba(0, 81, 255, 0.6);
+}
+.school2{
+    display: inline-block;
+}
+.skills-title{
+    display: flex;
+    height: 50px;
+    background-color: rgb(34, 51, 69);
+    color: white;
+    border-radius: 5px;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.skills{
+    display: none;
+    padding-left: 10px;
+    text-align: center;
+}

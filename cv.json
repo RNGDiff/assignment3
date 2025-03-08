@@ -1,15 +1,16 @@
 
 {
 
-    "myDetails":{
-        "fName":"Makwan",
-        "lName":"Abdulla",
-        "address":"Fabelvägen 5 ",
+    "myDetails":
+    {
+        "fName":"MAKWAN",
+        "lName":"ABDULLA",
+        "address":"Fabelvägen 5",
         "zipCode":"17670",
         "city":"Stockholm",
         "county":"Järfälla",
         "phoneNumber":"0720084748",
-        "email": "makwan.stockholm@gmail.com",
+        "email": "Makwan.stockholm@gmail.com",
         "linkedIn": "LinkedIn Profile URL"
     },
 
@@ -18,21 +19,41 @@
 
     "experience":[
         {
+            "exp":"ERFARENHET",
             "date":"VT 2018 - HT 2020",
             "jobTitle":"Väktare",
-            "company":"Securus & Aros",
-            "jobDescription":"Jobbat med kriminalvården med ansvar att boja, visitera, och transportera frihetsberövade. Jobbat som stationär väktare i en galleria med ansvar att övervaka inkommande varu-transport. Jobbat som ronderande väktare i en förort med ansvar att säkerställa säkerheten i området med brandförebyggande och brottsförebyggande syfte igenom bevakning, vistelse och säkerhetskontroller av byggnader. "
+            "company":" · Securus & Aros",
+            "jobDescription":"Arbetat inom kriminalvården med ansvar för att boja, visitera och transportera frihetsberövade personer. Tjänstgjort som stationär väktare i en galleria med ansvar för att övervaka inkommande varutransporter och upprätthålla säkerheten i lokalerna. Verkat som ronderande väktare i en förort med fokus på att förebygga bränder och brott genom bevakning, närvaro och säkerhetskontroller av byggnader. "
         },
         {
             "date":"VT 2021 - HT 2022",
             "jobTitle":"Kundtjänst",
-            "company":"Greencab",
-            "jobDescription":"Jobbet ingick på att arbeta gentemot varje enskild kund samt samarbeta med taxichaufförerna. Ansvarig med att arbetet flyter effektivt genom bra tilldelning av körningar samt trevlig kundtjänst.  "
+            "company":" · Greencab",
+            "jobDescription":"Ansvarade för att ge högkvalitativ service till kunder genom effektiv kommunikation och samarbete med chaufförer. Säkerställde att arbetsflödet var smidigt genom optimal tilldelning av körningar och ett trevligt bemötande i kundtjänsten."
         }
     ],
     "education":[
         {
-            
+            "degree": "UTBIDLNING",
+            "date":"VT 2018 - HT 2018",
+            "degreeTitle":"VÄKTARUTBILDNING ",
+            "school":"· VÄKTARSKOLAN AB",
+            "degreeDesc":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, ab, maiores nostrum, ullam perspiciatis iure repellendus sequi distinctio ad sint deserunt placeat doloremque aut illo. "
+        },
+        {
+            "date":"VT 2014 - HT 2017",
+            "degreeTitle":"EKONOMI - FÖRETAG",
+            "school":"· BROMMA GYMNASIUM",
+            "degreeDesc":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, ab, maiores nostrum, ullam perspiciatis iure repellendus sequi distinctio ad sint deserunt placeat doloremque aut illo.  "
         }
-    ]
+    ],
+    "skills":
+    {
+        "kompetens":"Kompetens:",
+        "js":"JS",
+        "css":"CSS",
+        "html":"HTML"
+
+    }
+    
 }

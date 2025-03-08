@@ -6,8 +6,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <title>Makwan</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="cv.css">
 </head>
 <body>
     <header>
@@ -29,7 +33,6 @@
                     <li class="clock">
                         <script>
                             let displayTime = document.querySelector('.clock');
-                            console.log(displayTime);
                             setInterval(() => {
                                 const clock = new Date();
                             const hours = clock.getHours();
@@ -44,46 +47,69 @@
                             displayTime.innerText = time;
                             }, 1000);
                             
-                            console.log(displayTime);
                         </script>
                     </li>
                 </div>
             </ul>
         </nav>
     </header>
-
-        <div class="presentation-container">
-            <div class="personal-image">
-                <img src="images/28_20220226150052_6422823_xlarge.jpg" alt="#">
-
-
+    <main>
+        
+        <div class="intro-container">
+            <div class="full-name">
+                <h1 class="first-name"> </h1>
+                <h1 class="last-name"></h1>
             </div>
-            <div class="present-cv">
-                <p class="present-text">                För en detaljerad översikt av min yrkesbakgrund, kompetenser och utbildning, kan du ladda ner mitt CV <a href="cv.html" class="cv-redirect">här.</a></p>
+            <div class="address-contact">
+                <h6 class="address"></h6>
+                <h6 class="contact"> </h6>
+                <h6 class="phone-number"></h6>
+                <h6 class="email" ></h6>
+
 
             </div>
         </div>
-
-
-        <h1 class="project-title">Projects</h1>
-        <div class="project-container">
-            <div class="project1 project-div">Calisthenics app
-                <p class="project-text">                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quisquam, obcaecati quia tempora ipsum nesciunt.</p>
-                <a href="">Pull up counter</a>
+        <div class="content-container">
+            <p class="profile-summary"></p>
+            <div class="copied-container">
+                <div id="copied"></div>
             </div>
-            <div class="project2 project-div">
-                <p class="project-text">                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quisquam, obcaecati quia tempora ipsum nesciunt.</p>
-
-            </div>
-            <div class="project3 project-div">
-                <p class="project-text">                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quisquam, obcaecati quia tempora ipsum nesciunt.</p>
-            </div>
-            <div class="project4 project-div">
-                <p class="project-text">                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quisquam, obcaecati quia tempora ipsum nesciunt.</p>
-
+            <h3 class="experience-title"></h3>
+            <div class="inside-container">
+                <h6 class="date"></h6>
+                <h4 class="job-title"></h4>
+                <h4 class="company"></h4>
+                <p class="job-desc"></p>
+                <h6 class="date2"></h6>
+                <h4 class="job-title2"></h4>
+                <h4 class="company2"></h4>
+                <p class="job-desc2"></p>
             </div>
 
+            <h3 class="degree"></h3>
+            <div class="inside-container">
+                <h6 class="date3"></h6>
+                <h4 class="degree-title"></h4>
+                <h4 class="school"></h4>
+                <p class="degree-desc"></p>
+                <h6 class="date4"></h6>
+                <h4 class="degree-title2"></h4>
+                <h4 class="school2"></h4>
+                <p class="degree-desc2"></p>
+            </div>
+            <div class="skills-title">
+                <div class="title-skills"></div>
+                <div class="skills js"></div>
+                <div class="skills css"></div>
+                <div class="skills html"></div>
+            </div>
+            
         </div>
+
+
+        
+    </main>
+
 
 
         <footer>
@@ -96,6 +122,8 @@
             </nav>
         </footer>
 
+        <script src="grabData.js"></script>
+        <script src="script.js"></script>
 </body>
 </html>
 
