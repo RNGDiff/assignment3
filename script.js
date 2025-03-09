@@ -10,7 +10,7 @@ lightMode.addEventListener('click', ()=>{
     swapMode('light')
 })
 
-
+ 
 
 
 function swapMode(setting){

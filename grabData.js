@@ -80,7 +80,7 @@ function getCv(){
             let slideIndex = 0;
             runSlide()
 
-            function runSlide(){
+            function runSlide(){ 
                 let i;
                 let slides = document.querySelectorAll('.skills');
                 for(i = 0; i < slides.length; i++){

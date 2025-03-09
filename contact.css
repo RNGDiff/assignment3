@@ -24,7 +24,7 @@ ul{
 }
 li{
     margin: 5px;
-    font-size: 1.3rem;
+    font-size: 1.3rem; 
     list-style-type: none;
     padding: 10px;
     border: 1px solid rgb(21, 22, 22);
