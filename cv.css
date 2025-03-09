@@ -16,6 +16,27 @@ h1,h2,h3,h4,h5,h6,ul{
     margin: 0;
     padding: 0;
 }
+ul{
+    font-family: "montserrat";
+}
+.mode{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 20px;
+    margin: 1px;
+}
+.dark-mode{
+    margin-bottom: 3px;
+    color: white;
+    background: linear-gradient(to right,#000000, #454444 );
+}
+.light-mode{
+    color: black;
+    background: linear-gradient(to right,#ffffff, #cdb8b8 );
+
+}
+
 main{
     flex-grow: 1;
     z-index: 1;
@@ -57,6 +78,7 @@ main{
 .last-name{
     font-size: 3rem;
     color: #242424;
+    opacity: 1;
 }
 /* ! Address & contact -- Address & contact */
 .address-contact{

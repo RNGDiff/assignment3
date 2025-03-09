@@ -22,8 +22,10 @@ main{
     margin: 0;
 }
 ul{
-    padding-left: 15px;
+    margin: 0;
+    padding: 0;
 }
+
 li{
     margin: 5px;
     font-size: 1.3rem;

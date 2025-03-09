@@ -76,7 +76,7 @@ function getCv(){
             const html = document.querySelector('.html').innerText = `${data.skills.html}`
             const skills = document.querySelector('.title-skills').innerText = `${data.skills.kompetens}`
 
-            // Resten av koden fick jag från w3schools.com
+            // Koden fick jag från w3schools.com
             let slideIndex = 0;
             runSlide()
 
@@ -88,7 +88,8 @@ function getCv(){
                 }
                 slideIndex++;
                 if(slideIndex > slides.length){slideIndex = 1}
-                // Jag la in modulos här
+
+                // Jag la in modulos här men det är allt
                 slides[slideIndex%3].style.display = 'block';
                 setTimeout(() => {
                     runSlide();
